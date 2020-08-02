@@ -6,6 +6,7 @@
 ![Herramientas](https://img.shields.io/badge/Herramientas-Mysql%20%2F%20Workbench-yellow)
 ![Tipo](https://img.shields.io/badge/Tipo%20de%20clase-Teorico%20%2F%20Practico-sucess)
 ![Modeo](https://img.shields.io/badge/Modo-Online-blueviolet)
+![Dueño](https://img.shields.io/badge/Dueño-Juan%20%2F%20Manuel%20%2F%20Spinelli-red)
 
 ### Detalle
 
