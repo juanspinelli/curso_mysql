@@ -1,0 +1,84 @@
+INSTALAR MYSQL:
+
+https://www.digitalocean.com/community/tutorials/como-instalar-mysql-en-ubuntu-18-04-es
+
+CREAR USUARIOS MYSQL:
+
+https://docs.bluehosting.cl/tutoriales/servidores/como-crear-un-nuevo-usuario-y-otorgar-permisos-en-mysql.html
+
+INSTALAR WORKBENCH:
+
+https://ubunlog.com/mysql-workbench-un-entorno-grafico-para-trabajar-con-mysql/
+
+COMANDOS:
+
+INSTALAR MYSQL
+
+- sudo apt update
+- sudo apt install mysql-server
+- sudo mysql_secure_installation
+- sudo mysql
+- SELECT user,authentication_string,plugin,host FROM mysql.user;
+- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+- FLUSH PRIVILEGES;
+- SELECT user,authentication_string,plugin,host FROM mysql.user;
+- exit
+- mysql -u root -p 123456
+- CREATE USER 'curso'@'localhost' IDENTIFIED BY 'curso';
+- GRANT ALL PRIVILEGES ON * . * TO 'curso'@'localhost';
+- FLUSH PRIVILEGES;
+- SELECT user,authentication_string,plugin,host FROM mysql.user;
+- exit
+- mysql -u curso -p curso
+- show databases;
+- use mysql;
+- show tables;
+- use user;
+- select * from user;
+- exit
+- systemctl status mysql.service
+- sudo mysqladmin -p -u root version
+
+INSTALAR WORBENCH
+
+- sudo apt-get install libcanberra-gtk-module
+- sudo apt install mysql-workbench
+- mysql-workbench
+
+CREAR UNA BASE DE DATOS Y UNA TABLA
+
+create database curso_mysql;
+
+use curso_mysql;
+
+create table covid(
+id int not null auto_increment,
+country nvarchar (10) not null,
+cases int not null,
+todayCases int not null,
+deaths int not null,
+todayDeaths int not null,
+recovered int not null,
+active int not null,
+critical int not null,
+casesPerOneMillion int not null,
+deathsPerOneMillion int not null,
+primary key (id)
+);
+
+
+ELIMINAR TODO LO QUE INSTALAMOS SI YA NO LO QUEREMOS USAR
+
+sudo apt-get remove --purge *mysql\*
+(Les va a preguntar si quieren eliminar todas las bases creadas selecciones Yes)
+
+sudo apt-get remove --purge libcanberra-gtk-module
+sudo apt-get autoremove
+sudo apt-get autoclean
+
+
+
+
+
+
+
