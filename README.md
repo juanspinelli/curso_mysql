@@ -10,7 +10,7 @@
 
 ### Detalle
 
-![Que_vamos_a_aprender](imgs/1.jpeg)
+![Que_vamos_a_aprender](imgs/0.jpeg)
 ![Como_van_a_ser_las_clases](imgs/2.jpeg)
 ![Clase_1](imgs/3.jpeg)
 ![Clase_2](imgs/4.jpeg)
