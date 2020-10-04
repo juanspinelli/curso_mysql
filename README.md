@@ -1,6 +1,6 @@
 # Curso introductorio a Mysql
 
-![Version](https://img.shields.io/badge/Version-V%201.0.0-important)
+![Version](https://img.shields.io/badge/Version-V%202.0.0-important)
 ![Entidad](https://img.shields.io/badge/Entidad-Icaro-blue)
 ![Nivel](https://img.shields.io/badge/Nivel-Introduccion-green)
 ![Herramientas](https://img.shields.io/badge/Herramientas-Mysql%20%2F%20Workbench-yellow)
