@@ -8,7 +8,7 @@
 ![Modeo](https://img.shields.io/badge/Modo-Online-blueviolet)
 ![Dueño](https://img.shields.io/badge/Dueño-Juan%20Manuel%20Spinelli-red)
 
-### Detalle
+### Detalle.
 
 ![Que_vamos_a_aprender](imgs/0.jpeg)
 ![Como_van_a_ser_las_clases](imgs/2.jpeg)
