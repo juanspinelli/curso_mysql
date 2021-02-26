@@ -1,0 +1,24 @@
+CREATE DATABASE excel_test;
+
+USE excel_test;
+
+CREATE TABLE usuarios(
+	id int not null auto_increment,
+	nombre char(20) not null,
+	apellido char(20) not null,
+	PRIMARY KEY (id)
+)
+
+select * from usuarios;
+
+LOAD DATA INFILE 'UBICACION DEL EXCEL csv, xlsx, xls, etc ej: /home/jspinelli/Documents/test_excel.csv'
+INTO TABLE usuarios
+# COMO ESTAN SEPARADAS LAS COLUMNAS
+FIELDS TERMINATED BY ','
+# COMO ESTAN SEPARADAS LAS FILAS, TUPLAS
+LINES TERMINATED BY '\n'
+
+
+MANUAL
+
+CLICK DERECHO EN LA TABLA > TABLE DATA IMPORT WIZARD
