@@ -10,9 +10,9 @@
 
 ### Detalle
 
-![Que_vamos_a_aprender](imgs/0.jpeg)
-![Como_van_a_ser_las_clases](imgs/2.jpeg)
-![Clase_1](imgs/3.jpeg)
-![Clase_2](imgs/4.jpeg)
-![Clase_3](imgs/5.jpeg)
-![Clase_4](imgs/6.jpeg)
+![Que_vamos_a_aprender](imagenes/0.jpeg)
+![Como_van_a_ser_las_clases](imagenes/2.jpeg)
+![Clase_1](imagenes/3.jpeg)
+![Clase_2](imagenes/4.jpeg)
+![Clase_3](imagenes/5.jpeg)
+![Clase_4](imagenes/6.jpeg)
