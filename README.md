@@ -1,11 +1,10 @@
 # Curso introductorio a Mysql
 
 ![Version](https://img.shields.io/badge/Version-V%202.0.0-important)
-![Entidad](https://img.shields.io/badge/Entidad-Icaro-blue)
+![Libre](https://img.shields.io/badge/Libre-blue)
 ![Nivel](https://img.shields.io/badge/Nivel-Introduccion-green)
 ![Herramientas](https://img.shields.io/badge/Herramientas-Mysql%20%2F%20Workbench-yellow)
 ![Tipo](https://img.shields.io/badge/Tipo%20de%20clase-Teorico%20%2F%20Practico-sucess)
-![Modeo](https://img.shields.io/badge/Modo-Online-blueviolet)
 ![Creador](https://img.shields.io/badge/Dueño-Juan%20Manuel%20Spinelli-red)
 
 ### Detalle
